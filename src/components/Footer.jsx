@@ -2,22 +2,23 @@ export default function Footer() {
   return (
     <footer>
       <p>
-        Copyright © {new Date().getFullYear()} - All right reserved by
-        LearnWithJon
+        Copyright © {new Date().getFullYear()} - All right reserved by zeezsoft
       </p>
-      <a
-        href="https://www.youtube.com/@LearnWithJonVadar"
-        target="_blank"
-        rel="external"
-      >
+      <a href="https://www.zeezsoft.com" target="_blank" rel="external">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
+          fill="none"
+          stroke="#c9c9c9"
+          // stroke-linecap="round"
+          // stroke-linejoin="round"
+          stroke-width="2"
           viewBox="0 0 24 24"
-          className="fill-current"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+          <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+          <path d="M2 12h20"></path>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
         </svg>
       </a>
     </footer>
